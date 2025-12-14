@@ -1,0 +1,12 @@
+-- schema.sql
+CREATE TABLE books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    publisher TEXT,
+    price INTEGER NOT NULL,           -- 台幣
+    publish_date TEXT,                -- 格式 YYYY-MM-DD
+    isbn TEXT,
+    cover_url TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
