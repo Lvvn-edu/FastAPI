@@ -1,0 +1,12 @@
+# Python Environment
+/env
+/__pycache__
+*.pyc
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*~
+
+# Uvicorn/FastAPI specific
+.DS_Store
